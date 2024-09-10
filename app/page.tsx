@@ -15,10 +15,10 @@ import {
 } from "@dnd-kit/sortable";
 import { Input } from "@/components/shadcn/input";
 import { Button } from "@/components/shadcn/button";
-import { selectableTasks, ITask } from "./selectable-tasks/data";
-import { SelectableTasks } from "./selectable-tasks";
-import { SelectedTasks } from "./selected-tasks";
-import { DraggingTask } from "./dragging-task";
+import { selectableTasks, ITask } from "./components/selectable-tasks/data";
+import { SelectableTasks } from "./components/selectable-tasks";
+import { SelectedTasks } from "./components/selected-tasks";
+import { DraggingTask } from "./components/dragging-task";
 
 export default function Home() {
   const isClient = useIsClient();
